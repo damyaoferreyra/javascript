@@ -1,3 +1,4 @@
+// Spread significa espalhar, ou seja, este operador é usado para 'espalhar' os elementos de um array quando interpretado em tempo de execução
 // sem o spread
 const multiply = (...args) => args.reduce((acc, value) => acc * value, 1)
 
