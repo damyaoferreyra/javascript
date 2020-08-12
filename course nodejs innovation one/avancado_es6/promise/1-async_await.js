@@ -23,7 +23,7 @@ const myPromiseAsync2 = () => new Promise((resolve, reject)=>{
     }, 1000)
 })
 
-
+// await
 const calllMyPromiseAsync = async () => {
     const data1 = await myPromiseAsync1()
     const data2 = await myPromiseAsync2()
