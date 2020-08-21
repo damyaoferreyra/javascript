@@ -1,0 +1,15 @@
+{
+  "name": "mocha_exemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "damyaoferreyra@hotmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
+}
