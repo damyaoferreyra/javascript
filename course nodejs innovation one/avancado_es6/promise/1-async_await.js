@@ -55,3 +55,15 @@ const callMyPromiseExecParalelo = async () => {
 console.log(callMyPromiseExecParalelo()
 .then(data => console.log(data))
 .catch(err => console.log(err)));
+
+callMyPromiseExecParalelo().then((res) => {console.log}, (req) => {console.log})
+callMyPromiseExecParalelo().then((res) => {console.log}).catch( (req) => {console.log})
+
+callMyPromiseExecParalelo().then((res) => {console.log}, (req) => {console.log})
+callMyPromiseExecParalelo().catch( (req) => {console.log})
+
+
+//finally promise
+
+const p = Promise.resolve('parse params')
+p.then(console.log).catch(console.log).finally(console.log("Run finally promise"))
