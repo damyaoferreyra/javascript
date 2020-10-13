@@ -6,3 +6,7 @@ Install Redis Docker.
 
 sudo docker pull redis
 sudo docker run --name redis -p 6379:6379 -d -t redis:alpine
+
+Estou usando o https://mailtrap.io/ para testar o envio de e-mail.
+
+Bull-board para exibir os processos em backgroud - localhost:8080/admin/queues
