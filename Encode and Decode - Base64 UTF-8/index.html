@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encode and Decode - Base64</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='webapp/css/bootstrap.min.css'>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <h3>Encode</h3>
+            </div>
+            <div class="col-md-6">
+                <label for="tipo_codificacao">Tipo de codificação</label>
+                <select class="form-select" aria-label="Selecione o tipo de codificação" id="tipo_codificacao" name="tipo_codificacao">
+                    <option value="UTF-8" selected>UTF-8</option>
+                    <option value="ASCII">ASCII</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                    <label for="text_encode" class="form-label">Encode texto</label>
+                    <button type="submit" class="btn btn-primary mb-3" id="button_encode">Encode</button>
+                </div>
+                <div>
+                    <textarea class="form-control" id="text_encode" name="text_encode" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                    <label for="text_decode" class="form-label">Decode texto</label>
+                    <button type="submit" class="btn btn-primary mb-3" id="button_decode"
+                        name="button_decode">Decode</button>
+                </div>
+                <div>
+                    <textarea class="form-control" id="text_decode" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='webapp/js/bootstrap.bundle.min.js'></script>
+<script src='webapp/js/main.js'></script>
+
+</html>
